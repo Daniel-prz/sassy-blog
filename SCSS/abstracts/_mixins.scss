@@ -1,0 +1,32 @@
+@mixin flex-layout(
+  $flex-direction: row,
+  $justify-content: none,
+  $align-items: none
+) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin button-style(
+  $background-color: rgb(16, 16, 230),
+  $text-color: rgb(255, 255, 255),
+  $border-radius: 4px
+) {
+  background-color: $background-color;
+  color: $text-color;
+  border-radius: $border-radius;
+}
+
+@mixin font-style(
+  $font-size: 1rem,
+  $font-family: "Source sans Pro",
+  $font-style: none,
+  $line-height: normal
+) {
+  font-size: $font-size;
+  font-family: $font-family, sans-serif;
+  font-style: $font-style;
+  line-height: $line-height;
+}

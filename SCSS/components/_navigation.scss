@@ -1,0 +1,22 @@
+.nav {
+  margin-top: 10px;
+  margin-right: 80px;
+
+  &__ul {
+    @include flex-layout();
+    list-style: none;
+    gap: 35px;
+    a {
+      font-size: 1.4rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      text-decoration: none;
+      color: black;
+      &:hover {
+        font-size: 1.325rem;
+        font-weight: bold;
+        color: rgb(108, 13, 0);
+      }
+    }
+  }
+}

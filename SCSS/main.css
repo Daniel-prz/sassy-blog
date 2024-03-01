@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.header__h1 a {
+  color: black;
+  text-decoration: none;
+  font-size: 2.6rem;
+}
+.header__h1 a:hover {
+  text-shadow: 0px 2px 2px rgb(191, 191, 191);
+}
+.header__h1 span {
+  color: rgb(120, 0, 0);
+}
+
+.splash-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.splash-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 246.5px;
+}
+.splash-main h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 1.9rem;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  line-height: normal;
+  font-stretch: ultra-expanded;
+}
+.splash-main__section {
+  margin-top: 20px;
+}
+.splash-main__section p {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  height: 55px;
+}
+.splash-main__section a {
+  padding: 6px;
+  margin: 0;
+  font-size: 2rem;
+  font-family: "Source Pro Sans", sans-serif;
+  font-style: italic;
+  line-height: normal;
+  background-color: rgb(120, 0, 0);
+  border: 3px solid rgb(37, 37, 37);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.splash-main__section a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.95rem;
+}
+
+.nav {
+  margin-top: 10px;
+  margin-right: 80px;
+}
+.nav__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+  list-style: none;
+  gap: 35px;
+}
+.nav__ul a {
+  font-size: 1.4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.nav__ul a:hover {
+  font-size: 1.325rem;
+  font-weight: bold;
+  color: rgb(108, 13, 0);
+}
+
+.footer {
+  height: 10vh;
+  margin-top: 1px;
+  background-color: rgb(46, 46, 46);
+}
+.footer__nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.footer__nav ul a {
+  font-size: 0.8rem;
+  font-family: "Source sans Pro", sans-serif;
+  font-style: none;
+  line-height: normal;
+  color: white;
+  text-decoration: none;
+}
+.footer__nav ul a:hover {
+  color: rgb(239, 245, 255);
+  text-shadow: 0px 0px 1.5px rgb(164, 174, 176);
+  text-decoration: underline;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+}
+
+.dash-main {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 223px;
+}
+.dash-main__section1 {
+  margin-left: 20px;
+}
+.dash-main__section1 h2 {
+  font-size: 1.8rem;
+  font-family: sans-serif, sans-serif;
+  font-style: italic;
+  line-height: normal;
+}
+.dash-main__section1 h2:hover {
+  -webkit-text-decoration: underline 1.7px;
+          text-decoration: underline 1.7px;
+}
+.dash-main__section1 p {
+  font-size: 1.15rem;
+  font-family: "Source sans Pro", sans-serif;
+  font-style: none;
+  line-height: normal;
+}
+.dash-main__section1 span {
+  color: rgb(120, 0, 0);
+  font-style: italic;
+}
+.dash-main__section1 span:hover {
+  text-decoration: underline;
+}
+.dash-main__section2 {
+  margin-left: 25px;
+  padding-left: 10px;
+}
+.dash-main__section2 h3 {
+  font-size: 1.6rem;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif, sans-serif;
+  font-style: none;
+  line-height: normal;
+}
+.dash-main__section2 h3:hover {
+  -webkit-text-decoration: underline 1.7px;
+          text-decoration: underline 1.7px;
+}
+.dash-main__section2 ul {
+  padding-left: 15px;
+}
+.dash-main__section2 a {
+  font-size: 1.2rem;
+  font-family: "Segoe UI", sans-serif;
+  font-style: italic;
+  line-height: normal;
+  text-decoration: none;
+  color: black;
+}
+.dash-main__section2 a:hover {
+  text-decoration: underline;
+  color: rgb(82, 10, 0);
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Source sans Pro", sans-serif;
+  font-style: none;
+  line-height: normal;
+}/*# sourceMappingURL=main.css.map */

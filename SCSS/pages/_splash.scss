@@ -1,0 +1,43 @@
+.splash-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.splash-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 246.5px;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    @include font-style(1.9rem, Arial, italic);
+    font-stretch: ultra-expanded;
+  }
+
+  &__section {
+    margin-top: 20px;
+
+    p {
+      margin-top: 14px;
+      margin-bottom: 0px;
+      height: 55px;
+    }
+    a {
+      padding: 6px;
+      margin: 0;
+      @include font-style(2rem, "Source Pro Sans", italic);
+      background-color: rgb(120, 0, 0);
+      border: 3px solid rgb(37, 37, 37);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+
+      &:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 1.95rem;
+      }
+    }
+  }
+}

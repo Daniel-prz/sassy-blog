@@ -1,0 +1,50 @@
+.flex-box {
+  @include flex-layout(column);
+}
+
+.dash-main {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 223px;
+  &__section1 {
+    margin-left: 20px;
+    h2 {
+      @include font-style(1.8rem, sans-serif, italic);
+      &:hover {
+        text-decoration: underline 1.7px;
+      }
+    }
+    p {
+      @include font-style(1.15rem);
+    }
+    span {
+      color: rgb(120, 0, 0);
+      font-style: italic;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__section2 {
+    margin-left: 25px;
+    padding-left: 10px;
+    h3 {
+      @include font-style(1.6rem, $fgothicmed);
+      &:hover {
+        text-decoration: underline 1.7px;
+      }
+    }
+    ul {
+      padding-left: 15px;
+    }
+    a {
+      @include font-style(1.2rem, "Segoe UI", italic);
+      text-decoration: none;
+      color: black;
+      &:hover {
+        text-decoration: underline;
+        color: rgb(82, 10, 0);
+      }
+    }
+  }
+}
